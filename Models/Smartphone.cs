@@ -9,7 +9,6 @@ namespace DesafioPOO.Models
         public string Modelo { get; set; }
         public string IMEI { get; set; }
         public int Memoria { get; set; }
-
         public Smartphone(string numero, string modelo, string imei, int memoria)
         {
             Numero = numero;
@@ -28,7 +27,6 @@ namespace DesafioPOO.Models
         {
             Console.WriteLine("Recebendo ligação...");
         }
-
         public abstract void InstalarAplicativo(string nomeApp);
     }
 }

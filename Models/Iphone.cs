@@ -2,7 +2,6 @@ using System;
 
 namespace DesafioPOO.Models
 {
-
     public class Iphone : Smartphone
     {
 
